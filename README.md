@@ -18,3 +18,5 @@ When compiling please ensure one of the following is defined (see Makefile)
 - #define MPU9150
 - #define MPU6500
 - #define MPU9250
+
+This has been tested using Arduino 1.0.5 libraries and a few variants of Arduino Pro Mini boards.
