@@ -5,7 +5,7 @@
 
 int ret;
 void setup() {
-    Fastwire::setup(1000,0);
+    Fastwire::setup(400,0);
     Serial.begin(38400);
     ret = mympu_open(200);
     Serial.print("MPU init: "); Serial.println(ret);
